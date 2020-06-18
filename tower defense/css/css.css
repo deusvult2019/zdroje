@@ -1,0 +1,283 @@
+body {
+
+  margin: 0;
+  padding: 0;
+}
+
+#menu
+{
+  position: relative; 
+  width: 100px;
+  height: 50px;
+}
+#a
+{
+  width: 1000px;
+  height: 150px;
+  background-color: darkblue;
+}
+
+#cn{
+  
+  text-align:center;
+}
+#vlna
+{
+  position: relative;
+  top: 40px;
+  left: 1px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 26px;
+  color: #FFFFFF;
+font-weight: 400;
+}
+#vylepsit
+{
+  position: relative; 
+  width: 120px;
+  height: 50px;
+  left: 75px;
+}
+
+#cena
+{
+  position: relative;
+  top: -85px;
+  left: 180px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 26px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#zivoty
+{
+  position: relative;
+  top: -75px;
+  left: 180px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 26px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#penaze
+{
+  position: relative;
+  top: -250px;
+  left: 400px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 26px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#power
+{
+  position: relative;
+  top: -250px;
+  left: 400px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 26px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#vez1
+{
+  position: relative;
+  top: -350px;
+  left: 600px;
+}
+#vez2
+{
+  position: relative;
+  top: -350px;
+  left: 600px;
+}
+#vez3
+{
+  position: relative;
+  top: -350px;
+  left: 600px;
+}
+#vez4
+{
+  position: relative;
+  top: -290px;
+  left: 438px;
+}
+#vez5
+{
+  position: relative;
+  top: -290px;
+  left: 438px;
+}
+#vez6
+{
+  position: relative;
+  top: -290px;
+  left: 438px;
+}
+
+#hra
+{
+  display: none;
+  width: 100vw;
+  place-items: center;
+}
+
+#uvod
+{
+  display: grid;
+  position: relative;
+  place-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../img/uvod.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#hratTLAC
+{
+  margin-top: 300px;
+  width: 300px;
+  height: 100px;
+}
+#music
+{
+  position: absolute;
+  right: 350px;
+  bottom: 50px;
+  width: 100px;
+  height: 100px;
+}
+#menuO
+{
+  display: none;
+  grid-auto-rows: 100px;
+  grid-row-gap: 50px;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  place-content: center;
+  background-image: url('../img/menu.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#spatM
+{
+  width: 300px;
+  height: 100px;
+}
+#koniec
+{
+  width: 300px;
+  height: 100px;
+}
+#znovu
+{
+  width: 300px;
+  height: 100px;
+}
+#vyhraO
+{
+  display: none;
+  grid-auto-rows: 100px;
+  grid-row-gap: 50px;
+  width: 100vw;
+  height: 100vh;
+  justify-items: center;
+  align-content: end;
+  background-image: url('../img/vyhra.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#prehraO
+{
+ 
+  display: none;
+  position: relative;
+  grid-auto-rows: 100px;
+  grid-row-gap: 50px;
+  width: 100vw;
+  height: 100vh;
+  justify-items: center;
+  align-content: end;
+  background-image: url('../img/prehra.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#pocet
+{
+  position: absolute;
+  top: 313px;
+  right: 440px;
+  font-size: 50px;
+  color: rgb(255, 0, 0);
+  font-weight: 400;
+}
+#DMG
+{
+  position: relative;
+  top: -445px;
+  left: 788px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#RYCHLOST
+{
+  position: relative;
+  top: -450px;
+  left: 788px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#DOSAH
+{
+  position: relative;
+  top: -450px;
+  left: 788px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#uroven
+{
+  position: relative;
+  top: -450px;
+  left: 788px;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+#sl
+{
+  display: none;
+  position: absolute;
+  right: 350px;
+  bottom: 50px;
+  width: 100px;
+  height: 100px;
+}
+#info
+{
+  display: none;
+  grid-auto-rows: 100px;
+  grid-row-gap: 50px;
+  width: 100vw;
+  height: 100vh;
+  place-items: center;
+  place-content: center;
+  background-image: url('../img/info.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

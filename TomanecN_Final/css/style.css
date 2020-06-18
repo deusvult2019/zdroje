@@ -1,0 +1,248 @@
+body{
+    font-family: "Arial";
+    margin: 0px;
+}
+ul {
+    
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #808080;  
+    width: 100%;   
+}
+
+li {
+    
+    float: left;
+}
+
+.od {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+.od:hover {
+    background-color: #ddd;
+}
+.banner {   
+   width: 75%;
+   height: 250px;
+   margin-bottom:-20px; 
+}
+.stred-style{
+    max-width: 750px;
+    margin: auto;
+    background: white;    
+}
+
+h1{
+    text-align:center;
+}
+
+table {
+    
+   border: 1px solid black;
+   border-collapse: collapse;
+   margin: auto;
+}
+
+tr{
+    border: 1px solid black;
+    text-align:center;
+}
+td, th{
+    border: 1px solid black;
+    text-align:center;
+    padding: 10px;
+}
+
+
+.velkost-uvod{
+    width: 450px;
+    height: 700px;     
+}
+.logo{
+    width: 60px;
+    height: 75px; 
+    margin-top: -8px;
+    margin-bottom: -13px;
+    margin-left: -9px;
+    animation-name: animacia;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+}
+.logo:hover
+{ 
+    animation-play-state: running; 
+
+}
+@keyframes animacia {
+   
+    100%{transform: rotate(360deg);}
+}
+
+.velkost-inf{
+    width: 750px;
+    height: 450px
+}
+.velkost-inf2{
+    width: 370px;
+    height: 450px
+}
+
+.stred{
+    text-align: center;
+}
+
+.pri-style{
+    float: left;
+    width:200px;
+    margin: 100px; 
+    margin-left: 25%;
+
+}
+
+.obr-por{
+    float:right
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+	max-width:600px;
+}
+
+.foot{
+    text-align: center;
+    width: 100%;      
+    float: left;
+    background-color: green;
+}
+
+.rec-hod
+{
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    width: 30%;
+}
+.rec-text{
+    float: left;
+    max-width: 50%;
+}
+
+.rec-vel{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.por-upr{
+    float: left;
+    margin-left: 425px;
+
+}
+.por-img{
+    width: 330px;
+    height: 350px;
+}
+
+.foot2{
+    
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0;   
+    float: left;
+    background-color: green;
+}
+
+.jif{
+    margin-left: 43.5%;
+}
+
+.nie{
+    float: right;
+}
+
+.lul{
+     border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.bod{
+  width: 3.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #C0C0C0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tex{
+    width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+.texa{
+    width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.ma{
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.aaa{
+    width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+
+.fod{
+
+    
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+     
+}

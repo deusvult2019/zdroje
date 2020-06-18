@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tower Defense</title>
+  <meta charset="utf-8" />
+  <link href="css/css.css" rel="stylesheet" />
+  <script src="js/gameobject.js"></script>
+  <script src="js/pozadie.js"></script>
+  <script src="js/cesta.js"></script>
+  <script src="js/level1.js"></script>
+  <script src="js/game.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/zakruta.js"></script>
+  <script src="js/enemy.js"></script>
+  <script src="js/veza1.js"></script>
+  <script src="js/veza2.js"></script>
+  <script src="js/veza3.js"></script>
+  <script src="js/veza4.js"></script>
+  <script src="js/veza5.js"></script>
+  <script src="js/veza6.js"></script>
+  <script src="js/boss.js"></script>
+
+  
+</head>
+
+<body>
+    <audio id="hudba"><source src="hudba/hudba.mp3" type="audio/mpeg"></audio>
+    <div id="uvod">
+        <img src="img/hrat.png" onclick="info()" id="hratTLAC">
+        <img src="img/Tvar1.png" onclick="game.Mturn()" id="music" >
+        <img src="img/sl.png" onclick="game.Mturn()" id="sl" >
+     </div>
+
+  <div id="hra">
+    <div id="a"> 
+      <img id="menu" src="img/menuT.png" onclick="game.menu()">
+      <img id="vylepsit" src="img/vylepsit.png" onclick="game.vylepsit()" onmouseover="game.vyl()" onmouseout="game.zob1()">
+      <p id="vlna">VLNA 1/20</p>
+      <p id="cena">CENA</p>
+      <p id="zivoty">ZIVOTY 20</p>
+      <p id="penaze">PENIAZE 500</p>
+      <p id="power">POWER TOKEN 0</p>
+      <img id="vez1" src="img/vez_1.png" onclick="game.vez1_prid()" onmouseover="game.zob(1)" onmouseout="game.zob1()">
+      <img id="vez2" src="img/vez_2.png" onclick="game.vez2_prid()"  onmouseover="game.zob(2)" onmouseout="game.zob1()">
+      <img id="vez3" src="img/vez_3.png" onclick="game.vez3_prid()"  onmouseover="game.zob(3)" onmouseout="game.zob1()">
+      <img id="vez4" src="img/vez_4.png" onclick="game.vez4_prid()"  onmouseover="game.zob(4)" onmouseout="game.zob1()">
+      <img id="vez5" src="img/vez_5.png" onclick="game.vez5_prid()"  onmouseover="game.zob(5)" onmouseout="game.zob1()">
+      <img id="vez6" src="img/vez_7.png" onclick="game.vez6_prid()"  onmouseover="game.zob(6)" onmouseout="game.zob1()">  
+      <p id="DMG">DMG</p>
+      <p id="DOSAH">DOSAH</p> 
+      <p id="RYCHLOST">RELOAD</p>
+      <p id="uroven">UROVEN</p>  
+    </div>
+    <div id="cn">
+      <canvas id="canvas" width="1000" height="700" style="border:1px solid #000000;" onclick="game.click()"></canvas>
+      </div>
+ </div>
+ <div id="info" onclick="hrat()"></div>   
+
+ <div id="menuO">
+    <img src="img/spat.png" id="spatM" onclick="game.spat()">
+    <img src="img/again.png" id="znovu" onclick=game.again()>
+    <img src="img/koniec.png" id="koniec" onclick="game.koniec()">   
+ </div>
+
+ <div id="vyhraO">
+   
+   <img src="img/koniec.png" id="koniec" onclick="game.koniec()">
+   <img src="img/again.png" id="znovu" onclick=game.again()>
+ </div>
+
+ <div id="prehraO">
+    <img src="img/koniec.png" id="koniec" onclick="game.koniec()">
+    <img src="img/again.png" id="znovu" onclick=game.again()>
+    <p id="pocet"></p>
+  </div>
+
+  <img id="uvod" src="img/uvod.jpg" style="display: none;">
+	<img id="hrat" src="img/hrat.png" style="display: none;">
+	<img id="tvar" src="img/Tvar1.png" style="display: none;">
+  <img id="poz"   src="img/pozadnie.jpg" style="display: none;">
+  <img id="cesta" src="img/cesta_rov.jpg" style="display: none;">
+  <img id="cesta1" src="img/cesta_rov1.jpg" style="display: none;">
+  <img id="zakruta" src="img/cesta_zakruta.jpg" style="display: none;">
+  <img id="zakruta1" src="img/cesta_zakruta1.jpg" style="display: none;">
+  <img id="zakruta2" src="img/cesta_zakruta2.jpg" style="display: none;">
+  <img id="zakruta3" src="img/cesta_zakruta3.jpg" style="display: none;">
+  <img id="enm" src="img/nepriatel.png" style="display: none;">
+  <img id="boss" src="img/boss.png" style="display: none;">
+</body>
+
+</html>
